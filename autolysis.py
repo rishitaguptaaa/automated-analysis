@@ -402,7 +402,7 @@ def request_to_aiproxy_for_story(prompt):
             {"role": "user", "content": prompt}
         ],
         "temperature": 0.5,  # Adjust as needed for creativity
-        "max_tokens": 300,   # Adjust based on expected response length
+        "max_tokens": 500,   # Adjust based on expected response length
         "top_p": 1.0,
         "frequency_penalty": 0.0,
         "presence_penalty": 0.0
